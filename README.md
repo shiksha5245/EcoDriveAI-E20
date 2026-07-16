@@ -2,11 +2,6 @@
 
 AI-Powered E20 Fuel Compatibility & Predictive Engine Health Diagnostics
 
-"Python" (https://img.shields.io/badge/Python-3.11-blue)
-"Machine Learning" (https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
-"Scikit-Learn" (https://img.shields.io/badge/Scikit--Learn-ML-orange)
-"Status" (https://img.shields.io/badge/Status-Hackathon%20Project-success)
-"License" (https://img.shields.io/badge/License-MIT-red)
 
 ---
 
