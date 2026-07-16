@@ -48,18 +48,18 @@ The system identifies vehicles at risk before major failures occur, helping owne
 
 ---
 
-✅ Features Included
+## ✨ Features
 
-• Synthetic Indian Automotive Data Generator
-• OBD-II Telemetry Simulation
-• Feature Engineering
-• Random Forest Classifier
-• Vehicle Risk Classification
-• Classification Report
-• Confusion Matrix
-• Feature Importance Analysis
-• Dynamic E20 Compatibility Advisor
-• Rule-Based Recommendation Engine
+- 🚗 Synthetic Indian Automotive Data Generator
+- 📡 OBD-II Telemetry Simulation
+- ⚙️ Feature Engineering
+- 🤖 Random Forest Classifier
+- 🚨 Vehicle Risk Classification
+- 📊 Classification Report
+- 📉 Confusion Matrix
+- 📈 Feature Importance Analysis
+- ⛽ Dynamic E20 Compatibility Advisor
+- 💡 Rule-Based Recommendation Engine
 
 ---
 
@@ -89,19 +89,19 @@ Maintenance Recommendation
 
 The project utilizes a realistic synthetic automotive dataset representing Indian vehicles.
 
-Dataset Features
-
-- Vehicle Type
--Brand
--Manufacturing Year
--Engine Capacity
--Odometer
--Fuel System
--STFT
--Exhaust Gas Temperature (EGT)
--O₂ Sensor Voltage
--Misfire Count
--Risk Target
+| Field | Description |
+|--------|-------------|
+| Vehicle Type | Type of vehicle (Hatchback, Sedan, SUV, etc.) |
+| Brand | Vehicle manufacturer |
+| Manufacturing Year | Year the vehicle was manufactured |
+| Engine Capacity | Engine displacement (cc) |
+| Odometer | Total distance traveled (km) |
+| Fuel System | Type of fuel injection system |
+| STFT | Short-Term Fuel Trim (%) |
+| Exhaust Gas Temperature (EGT) | Engine exhaust temperature (°C) |
+| O₂ Sensor Voltage | Oxygen sensor voltage (V) |
+| Misfire Count | Number of engine misfires detected |
+| Risk Target | Vehicle risk category (Low, Medium, High) |
 
 ---
 
