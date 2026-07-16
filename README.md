@@ -33,7 +33,7 @@ Most existing solutions simply check manufacturing year and cannot evaluate the 
 
 ---
 
-💡 Our Solution
+💡 Solution
 
 EcoDrive AI combines:
 
@@ -48,23 +48,18 @@ The system identifies vehicles at risk before major failures occur, helping owne
 
 ---
 
-🚀 Key Features
+✅ Features Included
 
-✅ AI-based Engine Health Prediction
-
-✅ E20 Compatibility Assessment
-
-✅ Predictive Maintenance Recommendations
-
-✅ Thermal Stress Analysis
-
-✅ Random Forest Machine Learning Model
-
-✅ Feature Importance Visualization
-
-✅ Confusion Matrix Evaluation
-
-✅ Explainable AI Insights
+• Synthetic Indian Automotive Data Generator
+• OBD-II Telemetry Simulation
+• Feature Engineering
+• Random Forest Classifier
+• Vehicle Risk Classification
+• Classification Report
+• Confusion Matrix
+• Feature Importance Analysis
+• Dynamic E20 Compatibility Advisor
+• Rule-Based Recommendation Engine
 
 ---
 
@@ -142,9 +137,10 @@ Chosen because it:
 📈 Model Evaluation
 
 The notebook evaluates the model using:
-
-- Accuracy Score
-- Precision
+-Accuracy: 94%
+-Precision
+-Confusion Matrix
+-Feature Importance
 - Recall
 - F1 Score
 - Classification Report
@@ -191,13 +187,12 @@ jupyter notebook BuildINAI.ipynb
 
 📌 Future Scope
 
-- Real-time OBD-II Integration
-- Mobile Application
-- Cloud Deployment
-- IoT-Based Vehicle Monitoring
-- Predictive Maintenance Alerts
-- Digital Vehicle Health Passport
-- Fleet Management Dashboard
+- Real OBD-II integration
+- Live vehicle diagnostics
+- Mobile application
+- IoT monitoring
+- Cloud deployment
+- Explainable AI (SHAP/LIME)
 
 ---
 
