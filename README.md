@@ -169,11 +169,7 @@ EcoDriveAI/
 │
 ├── BuildINAI.ipynb
 ├── README.md
-├── requirements.txt
-└── images/
-    ├── architecture.png
-    ├── confusion_matrix.png
-    └── feature_importance.png
+└── EcoDriveAI_Hackathon_Pitch_Deck.pdf
 
 ---
 
