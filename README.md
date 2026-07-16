@@ -181,8 +181,7 @@ EcoDriveAI/
 
 Clone Repository
 
-git clone https://github.com/yourusername/EcoDriveAI.git
-
+git clone https://github.com/shiksha5245/EcoDriveAI-E20.git
 Install Dependencies
 
 pip install -r requirements.txt
