@@ -96,16 +96,17 @@ The project utilizes a realistic synthetic automotive dataset representing India
 
 Dataset Features
 
-- Vehicle Brand
-- Manufacturing Year
-- BS Emission Standard
-- Engine Capacity (CC)
-- Fuel System
-- Short-Term Fuel Trim (STFT)
-- Exhaust Gas Temperature (EGT)
-- Misfire Count
-- Thermal Stress Indicators
-- Engine Health Label
+- Vehicle Type
+-Brand
+-Manufacturing Year
+-Engine Capacity
+-Odometer
+-Fuel System
+-STFT
+-Exhaust Gas Temperature (EGT)
+-O₂ Sensor Voltage
+-Misfire Count
+-Risk Target
 
 ---
 
