@@ -1,243 +1,272 @@
-🚗 EcoDrive AI
+# 🚗 EcoDriveAI: AI-Powered Predictive Vehicle Diagnostics for E20 Fuel Compatibility
 
-AI-Powered E20 Fuel Compatibility & Predictive Engine Health Diagnostics
+## 📌 Overview
 
+EcoDriveAI is an AI-powered predictive diagnostics system that analyzes vehicle telemetry data to determine E20 fuel compatibility, predict engine health risks, and provide intelligent maintenance recommendations.
 
----
-
-🌟 Overview
-
-EcoDrive AI is an AI-powered predictive diagnostics platform designed to help vehicle owners safely transition to E20 (20% Ethanol Blended Petrol).
-
-Rather than relying only on a vehicle's manufacturing year, EcoDrive AI analyzes engine health using machine learning and OBD-II-inspired telemetry to predict compatibility, detect early degradation, and recommend preventive maintenance before expensive failures occur.
-
-The project supports India's sustainable mobility mission by enabling data-driven decisions for cleaner transportation.
+The project combines Machine Learning, Explainable AI, Voice-Based Diagnostics, and an Interactive Dashboard to help identify potential engine issues before they become critical.
 
 ---
 
-❗ Problem Statement
+# 🚀 Features
 
-India is rapidly adopting E20 ethanol-blended fuel to reduce emissions and fuel imports.
-
-However, millions of existing vehicles were not originally designed for higher ethanol concentrations, leading to risks such as:
-
-- Fuel tank corrosion
-- Rubber hose degradation
-- Injector wear
-- Lean combustion
-- Engine overheating
-- Reduced engine life
-- Increased maintenance costs
-
-Most existing solutions simply check manufacturing year and cannot evaluate the actual health of an engine.
-
----
-
-💡 Solution
-
-EcoDrive AI combines:
-
-- Machine Learning
-- Feature Engineering
-- Explainable AI
-- Rule-Based Diagnostics
-
-to provide personalized engine health predictions and maintenance recommendations.
-
-The system identifies vehicles at risk before major failures occur, helping owners make informed maintenance decisions.
-
----
-
-## ✨ Features
-
-- 🚗 Synthetic Indian Automotive Data Generator
+- 🚗 Synthetic Indian Automotive Dataset Generator
 - 📡 OBD-II Telemetry Simulation
-- ⚙️ Feature Engineering
+- 🧠 Feature Engineering
+- 🌱 E20 Fuel Compatibility Prediction
 - 🤖 Random Forest Classifier
-- 🚨 Vehicle Risk Classification
-- 📊 Classification Report
-- 📉 Confusion Matrix
-- 📈 Feature Importance Analysis
-- ⛽ Dynamic E20 Compatibility Advisor
+- ⚡ Gradient Boosting Model Comparison
+- 🎯 Hyperparameter Tuning (GridSearchCV)
+- 📊 Vehicle Health Score (0–100)
+- 🔍 Multi-Class Risk Classification
+- 📈 Classification Report
+- 📉 Confusion Matrix Visualization
+- 📊 Feature Importance Analysis
+- 🧠 SHAP Explainable AI
+- 🎤 Muesli Voice Dictation Simulation
+- 📄 Automated PDF Diagnostic Report Generation
 - 💡 Rule-Based Recommendation Engine
+- 🌐 Interactive Gradio Web Application
 
 ---
 
-🧠 How It Works
+# 📂 Dataset
 
-Vehicle Data
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
+The project uses a synthetic dataset representing Indian vehicles and OBD-II telemetry.
+
+### Vehicle Information
+
+- Vehicle Type
+- Brand
+- Manufacturing Year
+- Engine Capacity (CC)
+- Odometer Reading
+- Fuel System
+
+### Engine Telemetry
+
+- Short-Term Fuel Trim (STFT)
+- Exhaust Gas Temperature (EGT)
+- Oxygen (O₂) Sensor Voltage
+- Misfire Count
+
+### Engineered Features
+
+- Thermal Stress Index
+- BS6 Compatibility
+- Vehicle Health Score
+- Risk Target Classification
+
+---
+
+# ⚙️ Machine Learning Pipeline
+
+Synthetic Dataset
+↓
 Feature Engineering
-      │
-      ▼
-Machine Learning Model
-(Random Forest)
-      │
-      ▼
-Engine Health Prediction
-      │
-      ▼
+↓
+Data Encoding
+↓
+Train-Test Split
+↓
+Random Forest Training
+↓
+Gradient Boosting Comparison
+↓
+Hyperparameter Tuning
+↓
+Best Model Selection
+↓
+Vehicle Risk Prediction
+↓
+Vehicle Health Score
+↓
 Maintenance Recommendation
 
 ---
 
-📊 Dataset
+# 🎤 Voice AI Workflow
 
-The project utilizes a realistic synthetic automotive dataset representing Indian vehicles.
-
-| Field | Description |
-|--------|-------------|
-| Vehicle Type | Type of vehicle (Hatchback, Sedan, SUV, etc.) |
-| Brand | Vehicle manufacturer |
-| Manufacturing Year | Year the vehicle was manufactured |
-| Engine Capacity | Engine displacement (cc) |
-| Odometer | Total distance traveled (km) |
-| Fuel System | Type of fuel injection system |
-| STFT | Short-Term Fuel Trim (%) |
-| Exhaust Gas Temperature (EGT) | Engine exhaust temperature (°C) |
-| O₂ Sensor Voltage | Oxygen sensor voltage (V) |
-| Misfire Count | Number of engine misfires detected |
-| Risk Target | Vehicle risk category (Low, Medium, High) |
-
----
-
-⚙️ Machine Learning Pipeline
-
-Data Preprocessing
-
-- Missing Value Handling
-- Label Encoding
-- Feature Engineering
-- Train-Test Split
-
-Feature Engineering
-
-- Thermal Stress Index
-- BS6 Compatibility Flag
-- Fuel System Encoding
-- Engine Performance Indicators
-
-Model
-
-Random Forest Classifier
-
-Chosen because it:
-
-- Handles nonlinear relationships
-- Is resistant to overfitting
-- Works well on mixed feature types
-- Provides feature importance for explainability
+Workshop Voice Input
+↓
+Muesli Voice Parser
+↓
+Vehicle Information Extraction
+↓
+Telemetry Mapping
+↓
+AI Prediction
+↓
+Risk Classification
+↓
+Maintenance Recommendation
+↓
+PDF Diagnostic Report
 
 ---
 
-📈 Model Evaluation
+# 📊 Model Evaluation
 
-The notebook evaluates the model using:
--Accuracy: 94%
--Precision
--Confusion Matrix
--Feature Importance
-- Recall
-- F1 Score
+The model is evaluated using:
+
 - Classification Report
 - Confusion Matrix
-- Feature Importance
+- Accuracy Score
+- Feature Importance Analysis
+- SHAP Explainability
 
 ---
 
-🛠️ Tech Stack
+# 🛠️ Technology Stack
 
-Category| Technologies
-Programming| Python
-Data Analysis| Pandas, NumPy
-Machine Learning| Scikit-learn
-Visualization| Matplotlib, Seaborn
-Development| Jupyter Notebook
+### Programming
+
+- Python
+
+### Data Processing
+
+- Pandas
+- NumPy
+
+### Machine Learning
+
+- Scikit-learn
+- Random Forest
+- Gradient Boosting
+
+### Explainable AI
+
+- SHAP
+
+### Visualization
+
+- Matplotlib
+- Seaborn
+
+### Web Application
+
+- Gradio
+
+### PDF Generation
+
+- ReportLab
 
 ---
 
-📂 Project Structure
+# 📁 Project Structure
 
+```
 EcoDriveAI/
 │
-├── BuildINAI.ipynb
+├── notebooks/
+│   └── EcoDriveAI.ipynb
+│
+├── reports/
+│   └── EcoDriveAI_Diagnostic_Report.pdf
+│
+├── images/
+│   ├── Architecture.svg
+│   └── Workflow.svg
+│
+├── requirements.txt
+│
 ├── README.md
-└── EcoDriveAI_Hackathon_Pitch_Deck.pdf
+│
+└── LICENSE
+```
 
 ---
 
-▶️ Getting Started
+# 🌟 Project Workflow
 
-Clone Repository
-
-git clone https://github.com/shiksha5245/EcoDriveAI-E20.git
-Install Dependencies
-
-pip install -r requirements.txt
-
-Launch Notebook
-
-jupyter notebook BuildINAI.ipynb
-
----
-
-📌 Future Scope
-
-- Real OBD-II integration
-- Live vehicle diagnostics
-- Mobile application
-- IoT monitoring
-- Cloud deployment
-- Explainable AI (SHAP/LIME)
+Vehicle Data
+↓
+OBD-II Sensor Telemetry
+↓
+Feature Engineering
+↓
+Machine Learning Model
+↓
+Risk Classification
+↓
+Vehicle Health Score
+↓
+SHAP Explainability
+↓
+Recommendation Engine
+↓
+PDF Report Generation
+↓
+Gradio Dashboard
 
 ---
 
-🌍 Impact
+# 📈 Current Project Status
 
-EcoDrive AI contributes to:
+✅ Synthetic Dataset Generation
 
-- Sustainable Transportation
-- Cleaner Fuel Adoption
-- Lower Maintenance Costs
-- Early Fault Detection
-- Data-Driven Vehicle Diagnostics
-- Support for India's Green Mobility Initiative
+✅ OBD-II Telemetry Simulation
+
+✅ Feature Engineering
+
+✅ Random Forest Classifier
+
+✅ Gradient Boosting Comparison
+
+✅ Hyperparameter Tuning
+
+✅ Vehicle Health Scoring
+
+✅ Risk Classification
+
+✅ SHAP Explainability
+
+✅ Voice Dictation Simulation
+
+✅ PDF Diagnostic Report
+
+✅ Rule-Based Recommendation Engine
+
+✅ Interactive Gradio Dashboard
 
 ---
 
-🏆 Hackathon Highlights
+# 🔮 Future Enhancements
 
-- AI + Sustainability Solution
-- Machine Learning Powered Diagnostics
-- Explainable Predictions
-- Preventive Maintenance Approach
-- Practical Real-World Use Case
-- Scalable Architecture
+- Real OBD-II Device Integration
+- IoT-Based Vehicle Monitoring
+- Mobile Application
+- Cloud Deployment
+- Predictive Maintenance Alerts
+- Multi-Language Voice Assistant
+- Live ECU Diagnostics
+- Fleet Management Dashboard
 
 ---
 
-👩‍💻 Author
+# 📸 Outputs
 
-Shiksha Kumari
+- Synthetic Automotive Dataset
+- Classification Report
+- Confusion Matrix
+- Feature Importance Plot
+- SHAP Explainability Plot
+- Vehicle Health Score
+- Risk Prediction
+- PDF Diagnostic Report
+- Voice-Based Vehicle Diagnosis
+- Gradio Web Interface
+
+---
+
+# 👩‍💻 Author
+
+**Shiksha Kumari**
 
 Data Science | Machine Learning | Artificial Intelligence | Business Analytics
 
-Driven by a passion for solving real-world challenges through AI, predictive analytics, and data-driven innovation.
+🚀 AI Hackathon Project – EcoDriveAI
 
 ---
 
-⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
-
-Your support motivates continuous innovation and improvement.
-
----
-
-📜 License
-
-This project is released under the MIT License.
+## ⭐ If you found this project useful, don't forget to Star ⭐ the repository!
